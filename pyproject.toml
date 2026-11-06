@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "shac"
+version = "0.1.0"
+description = "Shared Hybrid Agent Computing"
+requires-python = ">=3.10"
+
+
+[tool.setuptools.packages.find]
+include = [
+    "cli*",
+    "network*",
+    "bootstrap*",
+    "gui_pyqt*",
+    "security*"
+]
+
+
+[project.scripts]
+shac = "cli.shac_cli:main"
+shac-gui = "gui_pyqt.app:main"

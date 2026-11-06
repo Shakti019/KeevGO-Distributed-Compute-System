@@ -1,0 +1,11 @@
+{
+  "id": "git.clone_repo",
+  "name": "Git Clone Repository",
+  "description": "Clone a remote GitHub/Git repository onto the swarm node.",
+  "category": "Development & Git",
+  "action": "git.clone",
+  "arguments": {
+    "repo_url": "https://github.com/example/repo.git",
+    "target_dir": "projects/my_app"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "npm.start_dev",
+  "name": "NPM Dev Server",
+  "description": "Install dependencies and launch node/npm dev server on target node.",
+  "category": "Development & Git",
+  "action": "shell.exec",
+  "arguments": {
+    "command": "npm install && npm run dev"
+  }
+}

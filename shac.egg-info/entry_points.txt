@@ -1,0 +1,2 @@
+[console_scripts]
+shac = cli.shac_cli:main

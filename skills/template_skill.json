@@ -1,0 +1,10 @@
+{
+  "id": "template.custom_action",
+  "name": "Custom Skill Template",
+  "description": "Standard template for adding custom SHAC automation skills manually.",
+  "category": "Custom",
+  "action": "python.exec",
+  "arguments": {
+    "code": "print('Executing custom SHAC swarm skill...')\nimport os, platform\nprint(f'Node Platform: {platform.platform()}')"
+  }
+}
